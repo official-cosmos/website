@@ -5,15 +5,7 @@ import { Button } from "@/components/ui/button";
 import { Separator } from "@/components/ui/separator";
 import { motion } from "framer-motion";
 import { Footer } from "@/components/footer";
-import {
-  Rocket,
-  Shield,
-  Code,
-  Server,
-  Globe,
-  Layers,
-  Check,
-} from "lucide-react";
+import { Rocket, Shield, Code, Server, Globe, Layers } from "lucide-react";
 
 export default function Home() {
   return (
@@ -226,31 +218,31 @@ const expertise = [
   },
 ] as const;
 
-const pricingPlans = [
-  {
-    name: "Free",
-    price: 0,
-    description: "Perfect for small communities and hobbyists.",
-    features: [
-      "1 bot",
-      "Up to 100 users",
-      "Basic command set",
-      "Community support",
-    ],
-    buttonText: "Start for Free",
-  },
-  {
-    name: "Pro",
-    price: 8,
-    description: "Ideal for growing communities and businesses.",
-    features: [
-      "Unlimited bots",
-      "Unlimited users",
-      "Advanced commands",
-      "Priority support",
-      "Custom branding",
-      "Analytics dashboard",
-    ],
-    buttonText: "Upgrade to Pro",
-  },
-] as const;
+// const pricingPlans = [
+//   {
+//     name: "Free",
+//     price: 0,
+//     description: "Perfect for small communities and hobbyists.",
+//     features: [
+//       "1 bot",
+//       "Up to 100 users",
+//       "Basic command set",
+//       "Community support",
+//     ],
+//     buttonText: "Start for Free",
+//   },
+//   {
+//     name: "Pro",
+//     price: 8,
+//     description: "Ideal for growing communities and businesses.",
+//     features: [
+//       "Unlimited bots",
+//       "Unlimited users",
+//       "Advanced commands",
+//       "Priority support",
+//       "Custom branding",
+//       "Analytics dashboard",
+//     ],
+//     buttonText: "Upgrade to Pro",
+//   },
+// ] as const;

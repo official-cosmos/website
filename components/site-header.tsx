@@ -3,21 +3,12 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { motion } from "framer-motion";
-import {
-  NavigationMenu,
-  NavigationMenuContent,
-  NavigationMenuItem,
-  NavigationMenuLink,
-  NavigationMenuList,
-  NavigationMenuTrigger,
-} from "@/components/ui/navigation-menu";
 import { Button } from "@/components/ui/button";
 import Image from "next/image";
 import { Github, Linkedin } from "lucide-react";
 
 export function SiteHeader() {
   const pathname = usePathname();
-  const isAuthPage = pathname === "/signin" || pathname === "/register";
 
   return (
     <motion.header
