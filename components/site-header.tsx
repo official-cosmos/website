@@ -1,15 +1,12 @@
 "use client";
 
 import Link from "next/link";
-import { usePathname } from "next/navigation";
 import { motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
 import Image from "next/image";
 import { Github, Linkedin } from "lucide-react";
 
 export function SiteHeader() {
-  const pathname = usePathname();
-
   return (
     <motion.header
       initial={{ y: -100 }}
